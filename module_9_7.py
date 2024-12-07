@@ -7,7 +7,7 @@ def is_prime(func):
                     print(f"Составно {result}")
             else:
                 print('Простое')
-                print(result)
+                return result
     return wrapper
 
 @is_prime
